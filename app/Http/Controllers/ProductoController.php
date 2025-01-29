@@ -9,7 +9,7 @@ class ProductoController extends Controller
 {
     public function gestionAlmacen()
     {
-        return view('layouts.app');
+        return view('productos.gestion-almacen');  
     }
     public function index()
     {

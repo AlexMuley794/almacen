@@ -2,6 +2,7 @@
 // routes/web.php
 
 use App\Http\Controllers\ProductoController;
+use Illuminate\Support\Facades\Route;
 Route::get('/', [ProductoController::class, 'gestionAlmacen'])->name('gestion-almacen');
 
 Route::get('/productos', [ProductoController::class, 'index'])->name('productos.index');
