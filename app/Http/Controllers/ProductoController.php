@@ -11,6 +11,7 @@ class ProductoController extends Controller
     {
         return view('productos.gestion-almacen');  
     }
+
     public function index()
     {
         $productos = Producto::all();
